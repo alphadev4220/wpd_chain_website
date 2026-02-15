@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8e8f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4f4fc;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="btcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd45f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#b8a8e8;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#8b7bc8;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+  
+  <!-- Circuit board pattern -->
+  <path d="M 120,320 L 120,380 L 180,380 M 180,380 L 240,380 M 240,340 L 240,380 M 280,340 L 320,340 L 320,380 M 360,340 L 400,340" 
+        stroke="#7d6fb8" stroke-width="3" fill="none" opacity="0.4"/>
+  <path d="M 140,300 L 180,300 M 200,280 L 240,280 L 240,320 M 300,280 L 340,280 M 380,300 L 420,300" 
+        stroke="#7d6fb8" stroke-width="3" fill="none" opacity="0.4"/>
+  
+  <!-- Platform -->
+  <ellipse cx="256" cy="330" rx="140" ry="25" fill="#5e4fa8" opacity="0.3"/>
+  <ellipse cx="256" cy="325" rx="150" ry="28" fill="#4dc3ff" opacity="0.6"/>
+  
+  <!-- Left Shield -->
+  <path d="M 140,180 Q 140,140 140,120 L 180,100 L 220,120 Q 220,140 220,180 Q 220,220 180,240 Q 140,220 140,180 Z" 
+        fill="url(#shieldGrad)" stroke="#6b5bb8" stroke-width="2"/>
+  <path d="M 160,165 L 175,180 L 200,150" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right Shield -->
+  <path d="M 292,180 Q 292,140 292,120 L 332,100 L 372,120 Q 372,140 372,180 Q 372,220 332,240 Q 292,220 292,180 Z" 
+        fill="url(#shieldGrad)" stroke="#6b5bb8" stroke-width="2"/>
+  <path d="M 312,165 L 327,180 L 352,150" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bitcoin Coin -->
+  <circle cx="256" cy="200" r="60" fill="url(#btcGrad)" stroke="#d6a626" stroke-width="3"/>
+  <circle cx="256" cy="200" r="52" fill="none" stroke="#d6a626" stroke-width="2"/>
+  <text x="256" y="220" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#fff" text-anchor="middle">₿</text>
+  
+  <!-- Lock Icons -->
+  <g opacity="0.8">
+    <rect x="100" y="90" width="12" height="16" rx="2" fill="#4dc3ff"/>
+    <path d="M 106,90 Q 106,82 106,78 Q 106,74 110,74 Q 114,74 114,78 Q 114,82 114,90" fill="none" stroke="#4dc3ff" stroke-width="2"/>
+    
+    <rect x="155" y="260" width="12" height="16" rx="2" fill="#4dc3ff"/>
+    <path d="M 161,260 Q 161,252 161,248 Q 161,244 165,244 Q 169,244 169,248 Q 169,252 169,260" fill="none" stroke="#4dc3ff" stroke-width="2"/>
+    
+    <rect x="340" y="50" width="12" height="16" rx="2" fill="#4dc3ff"/>
+    <path d="M 346,50 Q 346,42 346,38 Q 346,34 350,34 Q 354,34 354,38 Q 354,42 354,50" fill="none" stroke="#4dc3ff" stroke-width="2"/>
+    
+    <rect x="400" y="130" width="12" height="16" rx="2" fill="#4dc3ff"/>
+    <path d="M 406,130 Q 406,122 406,118 Q 406,114 410,114 Q 414,114 414,118 Q 414,122 414,130" fill="none" stroke="#4dc3ff" stroke-width="2"/>
+    
+    <rect x="345" y="260" width="12" height="16" rx="2" fill="#4dc3ff"/>
+    <path d="M 351,260 Q 351,252 351,248 Q 351,244 355,244 Q 359,244 359,248 Q 359,252 359,260" fill="none" stroke="#4dc3ff" stroke-width="2"/>
+    
+    <rect x="420" y="200" width="12" height="16" rx="2" fill="#4dc3ff"/>
+    <path d="M 426,200 Q 426,192 426,188 Q 426,184 430,184 Q 434,184 434,188 Q 434,192 434,200" fill="none" stroke="#4dc3ff" stroke-width="2"/>
+  </g>
+  
+  <!-- Ethereum Symbol -->
+  <g transform="translate(120,160)" opacity="0.7">
+    <path d="M 0,0 L 8,24 L 16,0 L 8,12 Z" fill="#8b7bc8"/>
+    <path d="M 8,12 L 0,0 L 8,8 Z" fill="#b8a8e8"/>
+    <path d="M 8,12 L 16,0 L 8,8 Z" fill="#9880d8"/>
+  </g>
+  
+  <g transform="translate(375,180)" opacity="0.7">
+    <path d="M 0,0 L 8,24 L 16,0 L 8,12 Z" fill="#8b7bc8"/>
+    <path d="M 8,12 L 0,0 L 8,8 Z" fill="#b8a8e8"/>
+    <path d="M 8,12 L 16,0 L 8,8 Z" fill="#9880d8"/>
+  </g>
+</svg>

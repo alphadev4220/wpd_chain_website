@@ -1,0 +1,25 @@
+<svg width="560" height="220" viewBox="0 0 560 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3A78FF"/>
+      <stop offset="100%" stop-color="#FFD54A"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="10" y="10" width="540" height="200" rx="18" stroke="#27426F" fill="#0D1831"/>
+
+  <circle cx="110" cy="110" r="22" fill="#101F3E" stroke="#3A78FF"/>
+  <circle cx="280" cy="60" r="22" fill="#101F3E" stroke="#FFD54A"/>
+  <circle cx="450" cy="110" r="22" fill="#101F3E" stroke="#3A78FF"/>
+  <circle cx="280" cy="160" r="22" fill="#101F3E" stroke="#FFD54A"/>
+
+  <path d="M132 110H258" stroke="url(#line)" stroke-width="3"/>
+  <path d="M302 60H428" stroke="url(#line)" stroke-width="3"/>
+  <path d="M302 160H428" stroke="url(#line)" stroke-width="3"/>
+  <path d="M280 82V138" stroke="url(#line)" stroke-width="3"/>
+
+  <text x="92" y="115" fill="#D7E5FF" font-size="10" font-family="Inter">L1</text>
+  <text x="262" y="65" fill="#D7E5FF" font-size="10" font-family="Inter">L2A</text>
+  <text x="432" y="115" fill="#D7E5FF" font-size="10" font-family="Inter">L2B</text>
+  <text x="262" y="165" fill="#D7E5FF" font-size="10" font-family="Inter">IBC</text>
+</svg>
